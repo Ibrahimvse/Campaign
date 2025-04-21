@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="acf9161c4789ae50ec39b4b4116d4388" label="Candidate" max_length="40" name="x_1682057_my_cam_0_candidate" type="collection">
+        <element label="List" max_length="32" name="list" reference="x_1682057_my_cam_0_electoral_list" type="reference"/>
+        <element label="mobile" max_length="40" name="mobile" type="string"/>
+        <element display="true" label="Full Name" max_length="40" name="full_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="مستمر" sequence="0" value="مستمر"/>
+                <element inactive_on_update="false" label="منسحب" sequence="1" value="منسحب"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="list"/>
+        </index>
+    </element>
+</database>

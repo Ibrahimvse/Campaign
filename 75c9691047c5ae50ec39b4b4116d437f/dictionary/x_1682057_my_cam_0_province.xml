@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a26ba99047c5ae50ec39b4b4116d4393" label="province" max_length="40" name="x_1682057_my_cam_0_province" type="collection">
+        <element label="ألرمز" max_length="40" name="sys_province_code" type="integer"/>
+        <element display="true" label="أسم ألمحافظة" max_length="40" name="sys_province_name" type="string"/>
+        <element label="عدد المقاعد" max_length="255" name="sys_number_of_seats" type="integer"/>
+    </element>
+</database>

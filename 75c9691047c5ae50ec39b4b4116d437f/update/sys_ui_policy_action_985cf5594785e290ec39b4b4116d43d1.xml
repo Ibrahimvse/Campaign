@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>false</disabled>
+        <field>list</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-20 20:08:20</sys_created_on>
+        <sys_id>985cf5594785e290ec39b4b4116d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list</sys_name>
+        <sys_package display_value="My Campaign " source="x_1682057_my_cam_0">75c9691047c5ae50ec39b4b4116d437f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Campaign ">75c9691047c5ae50ec39b4b4116d437f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_985cf5594785e290ec39b4b4116d43d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-20 20:08:20</sys_updated_on>
+        <table>x_1682057_my_cam_0_candidate_user_asignment</table>
+        <ui_policy display_value="Hide candidate, menu, province for system admin">dc5cf5594785e290ec39b4b4116d43cb</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=985cf5594785e290ec39b4b4116d43d1"/>
+</record_update>

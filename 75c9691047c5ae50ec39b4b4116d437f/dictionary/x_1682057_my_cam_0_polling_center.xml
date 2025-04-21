@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="539638914741e290ec39b4b4116d43ce" label="Polling Center" max_length="40" name="x_1682057_my_cam_0_polling_center" type="collection">
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element label="Center Code" max_length="40" name="center_code" type="integer"/>
+        <element label="Registration Name" max_length="100" name="registration_name" type="string"/>
+        <element label="Number of Stations" max_length="40" name="number_of_stations" type="integer"/>
+        <element label="Ration Center Code" max_length="40" name="ration_center_code" type="integer"/>
+        <element label="District" max_length="100" name="district" type="string"/>
+        <element label="Ration Center Name" max_length="100" name="ration_center_name" type="string"/>
+        <element label="Province" max_length="32" name="province" reference="x_1682057_my_cam_0_province" type="reference"/>
+        <element label="Address" max_length="150" name="address" type="string"/>
+        <element label="Registration Code" max_length="40" name="registration_code" type="integer"/>
+        <element label="County" max_length="100" name="county" type="string"/>
+        <index name="index">
+            <element name="province"/>
+        </index>
+    </element>
+</database>

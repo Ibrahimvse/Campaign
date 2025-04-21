@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fde989994781e290ec39b4b4116d43c5" label="Pillar Center Assignment" max_length="40" name="x_1682057_my_cam_0_pillar_center_assignment" type="collection">
+        <element label="Note" max_length="4000" name="note" type="string"/>
+        <element label="Pillar" max_length="32" name="pillar" reference="x_1682057_my_cam_0_pillar" type="reference"/>
+        <element label="Polling Center" max_length="32" name="polling_center" reference="x_1682057_my_cam_0_polling_center" type="reference"/>
+        <index name="index">
+            <element name="pillar"/>
+        </index>
+        <index name="index2">
+            <element name="polling_center"/>
+        </index>
+    </element>
+</database>

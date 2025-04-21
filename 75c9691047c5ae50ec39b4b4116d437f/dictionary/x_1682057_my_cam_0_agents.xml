@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="38c1d51547c1e290ec39b4b4116d43bd" label="Agents" max_length="40" name="x_1682057_my_cam_0_agents" type="collection">
+        <element label="Pillar" max_length="32" name="pillar" reference="x_1682057_my_cam_0_pillar" type="reference"/>
+        <element label="Station" max_length="32" name="station" reference="x_1682057_my_cam_0_station" type="reference"/>
+        <element label="Candidate" max_length="32" name="candidate" reference="x_1682057_my_cam_0_candidate" type="reference"/>
+        <element label="Mobile" max_length="255" name="mobile" type="string"/>
+        <element display="true" label="Full Name" max_length="100" name="full_name" type="string"/>
+        <index name="index">
+            <element name="candidate"/>
+        </index>
+        <index name="index2">
+            <element name="pillar"/>
+        </index>
+        <index name="index3">
+            <element name="station"/>
+        </index>
+    </element>
+</database>

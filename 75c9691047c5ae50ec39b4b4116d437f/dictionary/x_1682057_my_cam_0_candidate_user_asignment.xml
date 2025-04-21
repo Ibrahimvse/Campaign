@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="97c0225447c9ae50ec39b4b4116d43d4" label="Candidate User Asignment" max_length="40" name="x_1682057_my_cam_0_candidate_user_asignment" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element choice="3" default="candidate" label="Role Type" mandatory="true" max_length="40" name="role_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Candidate" sequence="0" value="candidate"/>
+                <element inactive_on_update="false" label="List" sequence="1" value="list"/>
+                <element inactive_on_update="false" label="System" sequence="2" value="system"/>
+            </choice>
+        </element>
+        <element label="Candidate" max_length="32" name="candidate" reference="x_1682057_my_cam_0_candidate" type="reference"/>
+        <element label="Status" max_length="255" name="status" type="boolean"/>
+        <element label="Province" max_length="32" name="province" reference="x_1682057_my_cam_0_province" type="reference"/>
+        <element label="List" max_length="32" name="list" reference="x_1682057_my_cam_0_electoral_list" type="reference"/>
+        <index name="index">
+            <element name="candidate"/>
+        </index>
+        <index name="index2">
+            <element name="list"/>
+        </index>
+        <index name="index3">
+            <element name="province"/>
+        </index>
+        <index name="index4">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

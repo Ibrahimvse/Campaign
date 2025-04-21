@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="60e13d9847c5ae50ec39b4b4116d433f" label="Electoral List" max_length="40" name="x_1682057_my_cam_0_electoral_list" type="collection">
+        <element label="Poster Image" max_length="40" name="poster_image" type="user_image"/>
+        <element display="true" label="List Name" max_length="40" name="list_name" type="string"/>
+        <element label="List Leader" max_length="50" name="list_leader" type="string"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+        <element label="Province" max_length="32" name="province" reference="x_1682057_my_cam_0_province" type="reference"/>
+        <element label="Leader Image" max_length="40" name="leader_image" type="user_image"/>
+        <index name="index">
+            <element name="province"/>
+        </index>
+    </element>
+</database>

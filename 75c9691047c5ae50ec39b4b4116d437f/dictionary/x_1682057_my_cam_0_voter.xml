@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="530495d547c1e290ec39b4b4116d43e3" label="Voter" max_length="40" name="x_1682057_my_cam_0_voter" type="collection">
+        <element label="Family Number" max_length="40" name="family_number" type="integer"/>
+        <element label="Polling Center" mandatory="true" max_length="32" name="polling_center" reference="x_1682057_my_cam_0_polling_center" type="reference"/>
+        <element label="Full Name" mandatory="true" max_length="255" name="full_name" type="string"/>
+        <element label="Station" mandatory="true" max_length="32" name="station" reference="x_1682057_my_cam_0_station" type="reference"/>
+        <element label="Mobile" max_length="40" name="mobile" type="string"/>
+        <element label="Candidate" max_length="32" name="candidate" reference="x_1682057_my_cam_0_candidate" type="reference"/>
+        <element label="Voter Number" mandatory="true" max_length="40" name="voter_number" type="integer"/>
+        <element label="Birth Date" max_length="40" name="birth_date" type="glide_date"/>
+        <index name="index">
+            <element name="candidate"/>
+        </index>
+        <index name="index2">
+            <element name="polling_center"/>
+        </index>
+        <index name="index3">
+            <element name="station"/>
+        </index>
+    </element>
+</database>

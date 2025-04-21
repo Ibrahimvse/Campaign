@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="653885194781e290ec39b4b4116d4309" label="Pillar" max_length="40" name="x_1682057_my_cam_0_pillar" type="collection">
+        <element label="Candidate" max_length="32" name="candidate" reference="x_1682057_my_cam_0_candidate" type="reference"/>
+        <element label="Mobile" max_length="255" name="mobile" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element label="Full Name" max_length="100" name="full_name" type="string"/>
+        <index name="index">
+            <element name="candidate"/>
+        </index>
+    </element>
+</database>
